@@ -1,0 +1,101 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 150px;
+    object-position: 0 20%;
+    border: 5px #272640 solid;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    transition: box-shadow 1s;    
+}
+
+img:hover {
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.card {
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+   
+    text-align: center;
+    background: linear-gradient(90deg, #121420,#272640);
+    color: #fff;
+    border-bottom: 20px solid #272640;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.more-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.bullet-icon {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #272640;
+    cursor: pointer;
+    
+    transition: opacity 0.4s,
+    box-shadow 1s;
+}
+
+.bullet-icon:hover {
+    opacity: 0.7;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.bullet-icon:active {
+    opacity: 0.4;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.icons {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin: 5px auto 0 auto;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
